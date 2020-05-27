@@ -1,4 +1,4 @@
-#include <SFML/System/Vector2.hpp>
+#include <SFML/Graphics.hpp>
 
 #ifndef SFML_GAME_BOILERPLATE_GAMEENTITY_H
 #define SFML_GAME_BOILERPLATE_GAMEENTITY_H

@@ -1,8 +1,4 @@
-//
-// Created by Alexandr Shevchenko on 5/26/20.
-//
-
-#include "GameEntity.h"
+#include "Infrastructure/GameEntity.h"
 
 void GameEntity::setVelocity(sf::Vector2f velocity) {
     mVelocity = velocity;
