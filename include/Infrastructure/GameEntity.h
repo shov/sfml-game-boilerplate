@@ -1,12 +1,17 @@
-#include <SFML/Graphics.hpp>
+/**
+ * Represent a drawable entity in a game world
+ */
 
 #ifndef SFML_GAME_BOILERPLATE_GAMEENTITY_H
 #define SFML_GAME_BOILERPLATE_GAMEENTITY_H
 
+#include <SFML/System.hpp>
+#include "Infrastructure/SceneNode.h"
+
 /**
  * Base class for all game entities that has graphical representation or at least a movement
  */
-class GameEntity {
+class GameEntity : SceneNode {
 public:
     /**
      * Set velocity using vector

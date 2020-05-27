@@ -1,3 +1,8 @@
+/**
+ *  Load, hold and provide with access to resources
+ *  as textures, sounds, fonts and shaders
+ */
+
 #ifndef SFML_GAME_BOILERPLATE_RESOURCEHOLDER_H
 #define SFML_GAME_BOILERPLATE_RESOURCEHOLDER_H
 

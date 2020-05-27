@@ -1,3 +1,7 @@
+/**
+ * The game, tick, etc.
+ */
+
 #ifndef SFML_GAME_BOILERPLATE_GAME_H
 #define SFML_GAME_BOILERPLATE_GAME_H
 
